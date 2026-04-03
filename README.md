@@ -1,9 +1,9 @@
+
 # ✋ Hand Detector
 
 A real-time hand detection and tracking system built with **OpenCV** and **MediaPipe**. This project detects hands in a webcam feed, draws landmarks, counts fingers, and can be extended for gesture control.
 
-![Demo](https://via.placeholder.com/800x400?text=Hand+Detection+Demo)  
-*(Replace with actual GIF/screenshot)*
+
 
 ---
 
@@ -37,3 +37,36 @@ A real-time hand detection and tracking system built with **OpenCV** and **Media
 ---
 
 ## 📁 Project Structure
+hand-detector/
+│
+├── hand_detector.py # Main detection script
+├── hand_module.py # Reusable hand detection class
+├── requirements.txt # Dependencies
+├── README.md # This file
+
+
+text
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/srijitag448-jpg/hand-detector-opencv.git
+cd hand-detector-opencv
+Create a virtual environment (optional but recommended)
+
+bash
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+Install dependencies
+
+bash
+pip install -r requirements.txt
+🎮 Usage
+Run the main script:
+
+bash
+python hand_detector.py
+Press ESC or q to exit.
